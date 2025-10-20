@@ -28,7 +28,7 @@ const Header = () => {
           <div className="h-30 w-px bg-white/40" />
           {/* Container dos ícones */}
           <div className="my-4 flex flex-col gap-4">
-            <Link href={""} target="_blank" className="duration-400 hover:scale-125">
+            <Link href={"https://www.instagram.com/stefani_cedrofotografia/"} target="_blank" className="duration-400 hover:scale-125">
               <FiInstagram size={20} />
             </Link>
             <Link href={""} target="_blank" className="duration-400 hover:scale-125">
@@ -40,7 +40,7 @@ const Header = () => {
         </div>
         
       </div>
-  <Link href={'https://wa.me/219999999'} target="_blank" className="absolute left-8 mt-135 lg:mt-110">
+  <Link href={'https://wa.me/219999999'} target="_blank" className="absolute left-8 mt-140 lg:mt-110">
   <button className="bg-white/70 text-black/80 font-montserrat font-semibold p-2 rounded cursor-pointer  shadow-2xl hover:scale-105 duration-200 hover:bg-gray-400 ">Entrar em contato </button>
   </Link>
     </section>

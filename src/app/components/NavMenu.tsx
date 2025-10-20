@@ -20,7 +20,7 @@ const NavMenu = () => {
         <nav className={`${isOpen ? "flex" : "hidden"} lg:hidden flex-col gap-4 absolute right-0 top-0 px-20 pt-20 bg-[#1111119d]  h-full text-sm `}>
         <Link href={'/'}>Início</Link>
         <Link href={'#about'}>Sobre</Link>
-        <Link href={'#gallery'}>Galeria</Link>
+        <Link href={'#gallery'}>Portifólio</Link>
         <Link href={''}>Contato</Link>
 
         </nav>
@@ -32,10 +32,10 @@ const NavMenu = () => {
                 )}</button>
 
                 
-                <nav className="hidden lg:flex lg:gap-8 lg:justify-center ">
+                <nav className="hidden lg:flex lg:gap-8 lg:justify-center">
         <Link className="hover:scale-105 duration-200 hover:text-gray-400" href={'/'}>Início</Link>
         <Link className="hover:scale-105 duration-200 hover:text-gray-400" href={'#about'}>Sobre</Link>
-        <Link className="hover:scale-105 duration-200 hover:text-gray-400" href={'#gallery'}>Galeria</Link>
+        <Link className="hover:scale-105 duration-200 hover:text-gray-400" href={'#gallery'}>Portifólio</Link>
         <Link className="hover:scale-105 duration-200 hover:text-gray-400" href={''}>Contato</Link>
 
         </nav>
