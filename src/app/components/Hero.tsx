@@ -32,11 +32,11 @@ const Header = () => {
             <Link href={"https://www.instagram.com/stefani_cedrofotografia/"} target="_blank" className="duration-400 hover:scale-125">
               <FiInstagram size={20} />
             </Link>
-            <Link href={""} target="_blank" className="duration-400 hover:scale-125">
-             
+            
+          
                <Link href={"https://www.threads.com/@stefani_cedrofotografia?xmt=AQF0Mjd4ygEBUlO6twx8VP-rQW9b0z1WnIl4_BeK-8-pbxA"} target="_blank" className="duration-400 hover:scale-125">
               <BsThreads size={20}/>
-            </Link>
+
               
             </Link>
           </div>
