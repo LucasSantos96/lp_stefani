@@ -21,7 +21,7 @@ const NavMenu = () => {
         <Link href={'/'}>Início</Link>
         <Link href={'#about'}>Sobre</Link>
         <Link href={'#gallery'}>Portifólio</Link>
-        <Link href={''}>Contato</Link>
+        <Link href={'#contact'}>Contato</Link>
 
         </nav>
         {/*Botão menu mobile */}
@@ -36,7 +36,7 @@ const NavMenu = () => {
         <Link className="hover:scale-105 duration-200 hover:text-gray-400" href={'/'}>Início</Link>
         <Link className="hover:scale-105 duration-200 hover:text-gray-400" href={'#about'}>Sobre</Link>
         <Link className="hover:scale-105 duration-200 hover:text-gray-400" href={'#gallery'}>Portifólio</Link>
-        <Link className="hover:scale-105 duration-200 hover:text-gray-400" href={''}>Contato</Link>
+        <Link className="hover:scale-105 duration-200 hover:text-gray-400" href={'#contact'}>Contato</Link>
 
         </nav>
       </div>

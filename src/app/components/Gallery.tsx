@@ -25,7 +25,7 @@ const Gallery = () => {
               link={"/marriage"}
               className="rounded-2xl cursor-pointer duration-300 hover:scale-101 hover:opacity-70"
               altImg="Fotos de casamento"
-              srcImg={"/img1.jpg"}
+              srcImg={"/pedidocasamentopretobranco.png"}
               widthImg={500}
               classNameImg="rounded-2xl "
               title="Casamentos"
@@ -37,7 +37,7 @@ const Gallery = () => {
               link={"/birthday"}
               className="rounded-2xl cursor-pointer duration-300 hover:scale-101 hover:opacity-70"
               altImg="Fotos de aniversário"
-              srcImg={"/img-aniversario.jpg"}
+              srcImg={"/capaaniversario1.png"}
               widthImg={500}
               classNameImg="rounded-2xl "
               title="Aniversários"
@@ -49,7 +49,7 @@ const Gallery = () => {
                 link={'/portraits'}
                 className='rounded-2xl cursor-pointer duration-300 hover:scale-101 hover:opacity-70' 
                 altImg='Fotos de retratos'
-                srcImg={'/pexels-leah-newhouse-50725-5091121.jpg'}
+                srcImg={'/caparetrato1.jpeg'}
                 widthImg={500}
                 classNameImg='rounded-2xl '
                 title='Retratos'
@@ -57,12 +57,12 @@ const Gallery = () => {
                 
                 />
           </CarouselItem>
-          <CarouselItem className=" lg:basis-1/3">
+            <CarouselItem className=" lg:basis-1/3">
             <CardImg
               link={"/marriage"}
               className="rounded-2xl cursor-pointer duration-300 hover:scale-101 hover:opacity-70"
               altImg="Fotos de casamento"
-              srcImg={"/img1.jpg"}
+              srcImg={"/pedidocasamentopretobranco.png"}
               widthImg={500}
               classNameImg="rounded-2xl "
               title="Casamentos"
@@ -74,7 +74,7 @@ const Gallery = () => {
               link={"/birthday"}
               className="rounded-2xl cursor-pointer duration-300 hover:scale-101 hover:opacity-70"
               altImg="Fotos de aniversário"
-              srcImg={"/img-aniversario.jpg"}
+              srcImg={"/capaaniversario1.png"}
               widthImg={500}
               classNameImg="rounded-2xl "
               title="Aniversários"
@@ -86,7 +86,7 @@ const Gallery = () => {
                 link={'/portraits'}
                 className='rounded-2xl cursor-pointer duration-300 hover:scale-101 hover:opacity-70' 
                 altImg='Fotos de retratos'
-                srcImg={'/pexels-leah-newhouse-50725-5091121.jpg'}
+                srcImg={'/caparetrato1.jpeg'}
                 widthImg={500}
                 classNameImg='rounded-2xl '
                 title='Retratos'

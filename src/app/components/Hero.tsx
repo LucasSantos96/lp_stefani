@@ -5,7 +5,8 @@ import Link from "next/link";
 import NavMenu from "./NavMenu";
 //icons
 
-import { FiFacebook, FiInstagram } from "react-icons/fi";
+import { FiInstagram } from "react-icons/fi";
+import { BsThreads } from "react-icons/bs";
 //--//
 
 
@@ -32,7 +33,11 @@ const Header = () => {
               <FiInstagram size={20} />
             </Link>
             <Link href={""} target="_blank" className="duration-400 hover:scale-125">
-              <FiFacebook size={20} />
+             
+               <Link href={"https://www.threads.com/@stefani_cedrofotografia?xmt=AQF0Mjd4ygEBUlO6twx8VP-rQW9b0z1WnIl4_BeK-8-pbxA"} target="_blank" className="duration-400 hover:scale-125">
+              <BsThreads size={20}/>
+            </Link>
+              
             </Link>
           </div>
           {/* Linha inferior */}
@@ -40,7 +45,7 @@ const Header = () => {
         </div>
         
       </div>
-  <Link href={'https://wa.me/219999999'} target="_blank" className="absolute left-8 mt-140 lg:mt-110">
+  <Link href={'https://wa.me/5521968869436?text=Oi%2C%20vim%20pelo%20site%20e%20gostaria%20de%20fazer%20um%20orcamento'} target="_blank" className="absolute left-8 mt-140 lg:mt-110">
   <button className="bg-white/70 text-black/80 font-montserrat font-semibold p-2 rounded cursor-pointer  shadow-2xl hover:scale-105 duration-200 hover:bg-gray-400 ">Entrar em contato </button>
   </Link>
     </section>
