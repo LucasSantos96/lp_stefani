@@ -37,7 +37,7 @@ const Gallery = () => {
               link={"/birthday"}
               className="rounded-2xl cursor-pointer duration-300 hover:scale-101 hover:opacity-70"
               altImg="Fotos de aniversário"
-              srcImg={"/capaaniversario1.png"}
+              srcImg={"/aniversario7.jpg"}
               widthImg={500}
               classNameImg="rounded-2xl "
               title="Aniversários"
@@ -74,7 +74,7 @@ const Gallery = () => {
               link={"/birthday"}
               className="rounded-2xl cursor-pointer duration-300 hover:scale-101 hover:opacity-70"
               altImg="Fotos de aniversário"
-              srcImg={"/capaaniversario1.png"}
+              srcImg={"/aniversario7.jpg"}
               widthImg={500}
               classNameImg="rounded-2xl "
               title="Aniversários"
